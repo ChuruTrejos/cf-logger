@@ -6,7 +6,7 @@
 		// Login is always required. This example uses two lines of code.
 		// adminObj = createObject("component","CFIDE.adminapi.administrator");
 		adminObj = new CFIDE.adminapi.administrator();
-		adminObj.login("password"); //CF Admin password
+		adminObj.login("admin"); //CF Admin password
 		writeDump(var=adminObj, expand=false);
 
 		// Create a MySQL datasource

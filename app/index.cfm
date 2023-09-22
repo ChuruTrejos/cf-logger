@@ -4,7 +4,7 @@
 	//	If it isn't mapped, map it...
 	try {
 		adminstrator = new CFIDE.adminapi.administrator();
-		adminstrator.login("password"); // local CF Admin password
+		adminstrator.login("admin"); // local CF Admin password
 		// writeDump(var=adminstrator, expand=false);
 		datasource = new CFIDE.adminapi.datasource();
 		// writeDump(var=datasource, expand=false);
